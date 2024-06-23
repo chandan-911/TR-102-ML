@@ -1,10 +1,10 @@
-# Machine Learning Project
+# TR-102--ML
 
 ## Introduction
-This repository contains the implementation of various machine learning algorithms and models. The goal of this project is to explore different machine learning techniques, understand their implementation, and apply them to real-world datasets to solve various problems.
+Welcome to the TR-102--ML repository! This project contains various implementations of machine learning algorithms and models. The objective is to explore and understand different machine learning techniques and apply them to real-world datasets to solve a variety of problems.
 
 ## Project Structure
-The repository is structured as follows:
+The repository is organized as follows:
 
 - `data/`: Contains datasets used in the project.
 - `notebooks/`: Jupyter notebooks for exploratory data analysis and model training.
