@@ -6,7 +6,7 @@ Welcome to the TR-102--ML repository! This project contains various implementati
 ## Project Structure
 The repository is organized as follows:
 
-- `numpy`
+## `numpy`
 ### NumPy in Machine Learning
 
 #### Data Manipulation
@@ -34,7 +34,7 @@ The repository is organized as follows:
 #### Integration with Other Libraries
 - Compatibility with scikit-learn and Pandas for enhanced functionality
 
-- `pandas`
+## `pandas`
 ### Pandas in Machine Learning
 
 #### Data Manipulation
@@ -59,7 +59,7 @@ The repository is organized as follows:
 - Seamless compatibility with NumPy and scikit-learn for enhanced functionality
 
 
-- `metaplotlib`
+## `metaplotlib`
 ### Matplotlib in Machine Learning
 
 #### Data Visualization
