@@ -59,7 +59,7 @@ The repository is organized as follows:
 - Seamless compatibility with NumPy and scikit-learn for enhanced functionality
 
 
-## `Metaplotlib`
+## `Matplotlib`
 ### Matplotlib in Machine Learning
 
 #### Data Visualization
