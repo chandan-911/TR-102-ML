@@ -42,20 +42,28 @@ def upload_image():
     predict_result.config(text=f"The result is  = {items[result[0]]}")
 
 app=tk.Tk()
-app.geometry("600x600")
+app.geometry("600x700")
 app.title("Image classification")
-app.config(background="skyblue")
+app.config(background="#c1d6f7")
 
-lbl=tk.Label(app,text="Fasion Items Predictor",font=("robort",24,"bold"),background="skyblue",foreground="black")
+# flat, groove, raised, ridge, solid, or sunken
+
+frame1=tk.Frame(app,relief="raised",borderwidth=5,background="#6789bf")
+frame1.pack(fill="x",pady=15)
+
+lbl=tk.Label(frame1,text="Fasion Items Predictor",font=("robort",24,"bold"),background="#6789bf",foreground="black")
 lbl.pack(pady=10)
 
-btn=tk.Button(app,text="upload image",font=("robort",17,"bold"),background="black",foreground="skyblue",command=upload_image)
+btn=tk.Button(app,text="upload image",font=("robort",17,"bold"),background="black",foreground="#c1d6f7",command=upload_image)
 btn.pack()
 
-imageshow=tk.Label(app,background="skyblue")
+imageshow=tk.Label(app,background="#c1d6f7")
 imageshow.pack(pady=10)
 
-predict_result=tk.Label(app,text="",font=("robort",10,"italic"),background="skyblue")
+frame3=tk.Frame(app,relief="groove",borderwidth=5,background="white")
+frame3.pack(pady=10)
+
+predict_result=tk.Label(frame3,text="",font=("robort",15,"bold"),background="white")
 predict_result.pack()
 
 app.mainloop()
